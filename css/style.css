@@ -614,6 +614,12 @@ footer span {
     display: none;
   }
 
+  .popular-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
   .activities {
     flex-direction: row;
     align-items: center;
