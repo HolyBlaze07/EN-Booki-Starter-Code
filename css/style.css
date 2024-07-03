@@ -38,10 +38,10 @@ body {
 header {
   background-color: white;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   height: 79px;
 }
-.nav-bar {
+nav {
   display: flex;
   justify-content: space-between;
 }
@@ -57,18 +57,13 @@ header {
   display: flex;
   justify-content: center;
 }
-.nav-bar-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.nav-bar-links a {
+nav a {
   color: #000000;
   text-decoration: none;
   padding: 0 20px;
 }
-.nav-bar-links a:hover {
+nav a:hover {
   color: #0065fc;
   border-top: 1px solid #0065fc;
 }
@@ -395,8 +390,7 @@ footer span {
   .logo img {
     display: flex;
     justify-content: center;
-    margin: 10px;
-    padding: 20px;
+    margin: 20px;
   }
 
   .logo {
@@ -416,6 +410,7 @@ footer span {
   nav a:active {
     color: #0065fc;
     border-bottom: 1px solid #0065fc;
+    border-top: none;
   }
 
   .nav-bar-links a:hover {
@@ -482,6 +477,7 @@ footer span {
   .accommodation-cards {
     display: flex;
     flex-direction: column;
+    width: 335px;
   }
   .popular {
     background-color: var(--main-bg-color);
@@ -509,6 +505,8 @@ footer span {
   .activities {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
   .activities img {
     width: 315px;
@@ -539,6 +537,7 @@ footer span {
   .logo {
     flex: 1;
     justify-content: flex-start;
+    margin: 20px;
   }
   nav a {
     text-decoration: none;
@@ -554,7 +553,7 @@ footer span {
 
   .info-group {
     padding: 30px;
-    margin: 0;
+    margin: auto;
   }
   .InfoBar > p {
     font-size: 16px;
