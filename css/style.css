@@ -263,9 +263,6 @@ nav a:hover {
   font-weight: bold;
 }
 /****** Popular ***********/
-.popular {
-  /* width: 32%; */
-}
 
 .popular-title {
   display: flex;
@@ -599,13 +596,13 @@ footer span {
     justify-content: center;
     align-items: center;
   }
-  .accommodation-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+
+  .accommodation {
+    width: 95%;
   }
 
   .popular {
+    width: 95%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -617,9 +614,15 @@ footer span {
   .popular-cards {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
   }
-
+  .popular-cards .card {
+    width: 45%;
+  }
+  .popular .card-content {
+    font-size: 1rem;
+  }
   .activities {
     flex-direction: row;
     align-items: center;
