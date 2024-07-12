@@ -370,7 +370,6 @@ h2 {
   }
 
   footer ul {
-    width: 33%;
     list-style-type: none;
   }
 
@@ -469,6 +468,10 @@ h2 {
     flex: 1;
   }
 
+  .popular-cards img {
+    height: auto;
+  }
+
   .popular-and-accommodation {
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
@@ -500,9 +503,15 @@ h2 {
     flex: 1;
     object-fit: cover;
   }
+  .activities h3 {
+    white-space: nowrap;
+  }
 
   footer {
     flex-direction: row;
+  }
+  footer ul {
+    width: 33%;
   }
 }
 
@@ -535,6 +544,9 @@ h2 {
 
   .popular-cards {
     flex-direction: column;
+  }
+  .popular-cards img {
+    height: 136px;
   }
 
   .popular-and-accommodation {
