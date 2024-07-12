@@ -517,7 +517,7 @@ h2 {
 
 @media (min-width: 1024px) {
   .filter-buttons {
-    width: 60%;
+    width: 75%;
   }
   .info-group {
     padding: 0;
@@ -552,5 +552,8 @@ h2 {
   .popular-and-accommodation {
     flex-direction: row-reverse;
     flex-wrap: nowrap;
+  }
+  .filter-buttons {
+    width: 55%;
   }
 }
