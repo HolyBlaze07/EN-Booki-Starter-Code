@@ -457,6 +457,9 @@ h2 {
   .popular {
     border-radius: 20px;
   }
+  .popular-title {
+    display: none;
+  }
 
   .popular-cards {
     flex-direction: row;
@@ -504,8 +507,11 @@ h2 {
 }
 
 @media (min-width: 1024px) {
-  .popular-title {
-    display: none;
+  .filter-buttons {
+    width: 60%;
+  }
+  .info-group {
+    padding: 0;
   }
 }
 
@@ -521,10 +527,6 @@ h2 {
 
   .filter-bar p {
     width: auto;
-  }
-
-  .filter-buttons {
-    flex: 1;
   }
 
   .popular-cards {
