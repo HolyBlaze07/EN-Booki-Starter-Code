@@ -516,6 +516,10 @@ h2 {
 }
 
 @media (min-width: 1440px) {
+  .popular-title {
+    display: flex;
+  }
+
   .main-container {
     max-width: 1440px;
     margin: auto auto;
